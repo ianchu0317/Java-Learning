@@ -51,6 +51,12 @@ public abstract class HumanAbstraction {
 			return  LIFETIME - age;
 		}
 		
+		// To inherit method
 		public abstract void sayHello();
+		
+		// Testing method
+		public void testing() {
+			System.out.println("This is a testing");
+		}
 		
 }
